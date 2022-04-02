@@ -78,7 +78,7 @@ During the development of this project, there were numerous ideas that I thought
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://loom.com/share/a5df9dda9e7745cba98427b1ea390d62)
 
 
 ## License
