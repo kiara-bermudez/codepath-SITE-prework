@@ -19,6 +19,7 @@ function startGame() {
   progress = 0;
   gamePlaying = true;
   mistakesCounter = 0;
+  clueHoldTime = 1000;
   
   // Generate secret pattern
   patternRandomizer();
