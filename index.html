@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Light and Sound Memory Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+
+          <!-- Title and Instructions -->
+          <h1 class="title">Light and Sound Memory Game</h1>
+
+          <p>
+            Welcome to the game! Repeat back the pattern by pressing the buttons! If you make a mistake, watch out! Three mistakes and you lose.
+          </p>
+        
+          <!------- Buttons ------->
+          <button id="startBtn" onclick="startGame()">
+            Start
+          </button>
+          <button id="stopBtn" class="hidden" onclick="stopGame()">
+            Stop
+          </button>
+          
+          <div id="gameButtonArea">
+            <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">United States</button>
+            <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">Japan</button>
+            <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">Puerto Rico</button>
+            <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">Spain</button>
+            <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">Mexico</button>
+            <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">Netherlands</button>
+            <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()">Great Britain</button>
+            <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()">Canada</button>
+          </div>
+          
+
+  </body>
+</html>
