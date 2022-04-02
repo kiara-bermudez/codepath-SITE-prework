@@ -83,7 +83,7 @@ During the development of this project, there were numerous ideas that I thought
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Kiara Bermudez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
