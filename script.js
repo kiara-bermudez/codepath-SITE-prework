@@ -18,7 +18,8 @@ function startGame() {
   // Initialize game variables
   progress = 0;
   gamePlaying = true;
-  mistakesCounter = 0;
+  mistakesCounter = 0
+  nextClueWaitTime = 1000
   
   // Generate secret pattern
   patternRandomizer();
